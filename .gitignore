@@ -1,0 +1,34 @@
+﻿# 1. VARIABLE ENVIRONMENT & API KEYS (WAJIB)
+
+.env
+.env.local
+.env.*
+*.env
+
+
+# 2. PYTHON SYSTEM & CHACHE (BIAR BERSIH)
+
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+
+# 3. VIRTUAL ENVIRONMENT (UKURAN BESAR)
+
+venv/
+.venv/
+env/
+ENV/
+dist/
+build/
+*.egg-info/
+
+
+# 4. STREAMLIT & BROWSER SPECIFIC
+
+.streamlit/config.toml
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db

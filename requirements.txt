@@ -1,0 +1,22 @@
+﻿# OPERASIONAL UI & ENVIRONMENT MANAGEMENT
+
+streamlit>=1.42.0
+python-dotenv>=1.0.1
+
+# EKOSISTEM KOMPONEN WAJIB UAS NLP
+
+# Core abstraction & Ollama local integration
+langchain>=0.3.10
+langchain-core>=0.3.25
+langchain-ollama>=0.1.3
+langchain-community>=0.3.0
+# Agentic graph state machine management
+langgraph>=0.2.55
+
+# Tracing client (otomatis terintegrasi via langchain-core)
+langsmith>=0.1.145
+
+# LIBRARY TAMBAHAN UNTUK MEMBACA PDF:
+pypdf>=5.0.0
+
+langchain-groq>=0.1.0

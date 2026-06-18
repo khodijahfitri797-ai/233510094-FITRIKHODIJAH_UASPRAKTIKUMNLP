@@ -1,0 +1,48 @@
+===========================================================================
+               PERTANYAAN YANG SERING DIAJUKAN (FAQ) - UU ITE
+               Aplikasi Analisis & Sistem Informasi LegalBot
+===========================================================================
+Pengembang: Fitri Khodijah
+Program   : Informatika / IT
+Keperluan : Dokumentasi Proyek Mandiri RAG (UAS)
+---------------------------------------------------------------------------
+
+KATEGORI 1: INFORMASI & DOKUMEN ELEKTRONIK (BAB II)
+---------------------------------------------------------------------------
+
+Q1: Bagaimana bunyi Pasal 6 UU ITE mengenai mekanisme keabsahan dokumen elektronik?
+A1: Pasal 6 UU ITE menyatakan bahwa Informasi Elektronik dan/atau Dokumen 
+    Elektronik dianggap sah sepanjang informasi yang tercantum di dalamnya 
+    dapat diakses, ditampilkan, dijamin keutuhannya, dan dapat 
+    dipertanggungjawabkan sehingga menerangkan suatu keadaan. Ini memberikan 
+    kesetaraan hukum antara dokumen digital dengan dokumen fisik.
+
+Q2: Apakah Akta Autentik dapat diterbitkan secara elektronik menurut UU ITE?
+A2: Berdasarkan Pasal 5 Ayat (4) Huruf b, UU ITE mengecualikan pemberlakuan 
+    dokumen elektronik untuk surat beserta dokumennya yang menurut Undang-Undang 
+    wajib dibuat dalam bentuk akta notaril atau akta yang dibuat oleh 
+    Pejabat Pembuat Akta Tanah (Akta Autentik fisik). Jadi, untuk ranah ini, 
+    dokumen harus tetap berbentuk fisik konvensional.
+
+Q3: Apa saja pengecualian hukum informasi elektronik dalam acara peradilan?
+A3: Menurut Pasal 5 Ayat (4), dokumen elektronik tidak berlaku sebagai alat 
+    bukti hukum yang sah untuk:
+    a. Surat yang menurut Undang-Undang harus dibuat dalam bentuk tertulis.
+    b. Surat beserta dokumennya yang menurut Undang-Undang harus dibuat dalam 
+       bentuk akta autentik (akta notaril/PPAT).
+
+---------------------------------------------------------------------------
+KATEGORI 2: SERTIFIKASI & TRANSAKSI ELEKTRONIK (BAB III)
+---------------------------------------------------------------------------
+
+Q4: Bagaimana validitas Tanda Tangan Elektronik menurut UU ITE?
+A4: Berdasarkan Pasal 11 Ayat (1), Tanda Tangan Elektronik memiliki kekuatan 
+    hukum dan akibat hukum yang sah selama memenuhi persyaratan teknis, yaitu:
+    • Data pembuatan tanda tangan elektronik terkait hanya kepada Penandatangan.
+    • Data pembuatan tanda tangan elektronik pada saat proses penandatanganan 
+      hanya berada dalam kuasa Penandatangan.
+    • Segala perubahan terhadap tanda tangan atau dokumen setelah waktu 
+      penandatanganan dapat diketahui tingkat integritasnya.
+
+===========================================================================
+*Sumber Referensi Data: Lembaran Negara Republik Indonesia (UU No. 11/2008)*Bagaimana validitas Tanda Tangan Elektronik menurut UU ITE?
