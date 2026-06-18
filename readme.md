@@ -140,23 +140,46 @@ pip install streamlit langchain langchain-groq langchain-community langgraph pyt
 3. Konfigurasi File Akses Kunci (.env)
 Buat sebuah file bernama .env di direktori akar proyek, kemudian masukkan API Key Anda:
 
-Cuplikan kode
+Jika Terminal Kamu Menggunakan PowerShell (PS):
+Salin seluruh baris di bawah ini, tempelkan ke terminal, lalu tekan Enter:
 
+PowerShell
+Set-Content -Path .env -Value @"
+# =========================================================================
+# CONFIGURATION ENGINE LLM (GROQ API)
+# =========================================================================
 GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
 USER_LLM_MODEL=llama-3.1-8b-instant
-
 LLM_TEMPERATURE=0.1
 
-# Konfigurasi Akses LangSmith Tracing
-
+# =========================================================================
+# CONFIGURATION EVALUATION & TRACING (LANGSMITH)
+# =========================================================================
 LANGCHAIN_TRACING_V2=true
-
 LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
-
 LANGCHAIN_API_KEY=lsv2_pt_xxxxxxxxxxxxxxxxxxxxxx
-
 LANGCHAIN_PROJECT=LegalBot-ITE-UAS
+"@
+Jika Terminal Kamu Menggunakan Git Bash:
+Salin seluruh kode di bawah ini, tempelkan ke terminal, lalu tekan Enter:
+
+Bash
+cat << 'EOF' > .env
+# =========================================================================
+# CONFIGURATION ENGINE LLM (GROQ API)
+# =========================================================================
+GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+USER_LLM_MODEL=llama-3.1-8b-instant
+LLM_TEMPERATURE=0.1
+
+# =========================================================================
+# CONFIGURATION EVALUATION & TRACING (LANGSMITH)
+# =========================================================================
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
+LANGCHAIN_API_KEY=lsv2_pt_xxxxxxxxxxxxxxxxxxxxxx
+LANGCHAIN_PROJECT=LegalBot-ITE-UAS
+EOF
 
 
 4. Jalankan Aplikasi Streamlit
