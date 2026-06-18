@@ -130,7 +130,7 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi di lingkungan lokal And
 
 git clone https://github.com/khodijahfitri797-ai/233510094-FITRIKHODIJAH_UASPRAKTIKUMNLP.git
 
-cd nama-repo-uas
+cd legalbot-uu-ite
 
 2. Persiapan Environment & Dependensi
 Pastikan Anda telah menginstal Python (versi 3.9 atau lebih baru). Pasang pustaka yang diperlukan dengan menjalankan perintah:
